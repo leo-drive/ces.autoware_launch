@@ -9,14 +9,14 @@
 
       # avoidance module common setting
       enable_bound_clipping: false
-      enable_yield_maneuver: true
+      enable_yield_maneuver: false
       enable_yield_maneuver_during_shifting: false
       enable_cancel_maneuver: true
       disable_path_update: false
 
       # drivable area setting
-      use_adjacent_lane: true
-      use_opposite_lane: true
+      use_adjacent_lane: false
+      use_opposite_lane: false
       use_intersection_areas: true
       use_hatched_road_markings: true
 
